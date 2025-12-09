@@ -1,0 +1,98 @@
+OrderID,Customer,City,Region,Category,Product,Units Sold,Unit Price,Total Amount,Order Date,Status,Payment Mode,Rating
+2006,Asha,Kolkata,East,Home Decor,Wall Clock,2,900,1800,8-Jan-25,Delivered,Card,4
+2008,Priya,Hyderabad,South,Fashion,Kurti,2,650,1300,9-Jan-25,Pending,Card,4
+2003,Rahul,Bangalore,South,Groceries,Rice Bag,5,250,1250,6-Jan-25,Delivered,Card,3
+2005,Karan,Chennai,South,Electronics,Smartwatch,1,3500,3500,7-Jan-25,Cancelled,Cash,2
+2002,Meera,Delhi,North,Fashion,Jacket,1,1800,1800,6-Jan-25,Pending,Cash,5
+2009,Reema,Surat,West,Beauty,Lip Balm,4,150,600,10-Jan-25,Delivered,Cash,3
+2001,Aarav,Mumbai,West,Electronics,Bluetooth Speaker,2,1300,2600,5-Jan-25,Delivered,UPI,4
+2010,Harsh,Ahmedabad,West,Electronics,Earphones,3,800,2400,10-Jan-25,Delivered,UPI,5
+2004,Sneha,Pune,West,Beauty,Face Serum,3,700,2100,7-Jan-25,Delivered,UPI,5
+2007,Rohan,Jaipur,North,Groceries,Tea Pack,10,90,900,9-Jan-25,Delivered,UPI,5
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+sort dataset with highest total amount,,,,,,,,,,,,
+OrderID,Customer,City,Region,Category,Product,Units Sold,Unit Price,Total Amount,Order Date,Status,Payment Mode,Rating
+2005,Karan,Chennai,South,Electronics,Smartwatch,1,3500,3500,7-Jan-25,Cancelled,Cash,2
+2001,Aarav,Mumbai,West,Electronics,Bluetooth Speaker,2,1300,2600,5-Jan-25,Delivered,UPI,4
+2010,Harsh,Ahmedabad,West,Electronics,Earphones,3,800,2400,10-Jan-25,Delivered,UPI,5
+2004,Sneha,Pune,West,Beauty,Face Serum,3,700,2100,7-Jan-25,Delivered,UPI,5
+2006,Asha,Kolkata,East,Home Decor,Wall Clock,2,900,1800,8-Jan-25,Delivered,Card,4
+2002,Meera,Delhi,North,Fashion,Jacket,1,1800,1800,6-Jan-25,Pending,Cash,5
+2008,Priya,Hyderabad,South,Fashion,Kurti,2,650,1300,9-Jan-25,Pending,Card,4
+2003,Rahul,Bangalore,South,Groceries,Rice Bag,5,250,1250,6-Jan-25,Delivered,Card,3
+2007,Rohan,Jaipur,North,Groceries,Tea Pack,10,90,900,9-Jan-25,Delivered,UPI,5
+2009,Reema,Surat,West,Beauty,Lip Balm,4,150,600,10-Jan-25,Delivered,Cash,3
+,,,,,,,,,,,,
+Sort by region first and then by city,,,,,,,,,,,,
+OrderID,Customer,City,Region,Category,Product,Units Sold,Unit Price,Total Amount,Order Date,Status,Payment Mode,Rating
+2006,Asha,Kolkata,East,Home Decor,Wall Clock,2,900,1800,8-Jan-25,Delivered,Card,4
+2002,Meera,Delhi,North,Fashion,Jacket,1,1800,1800,6-Jan-25,Pending,Cash,5
+2007,Rohan,Jaipur,North,Groceries,Tea Pack,10,90,900,9-Jan-25,Delivered,UPI,5
+2003,Rahul,Bangalore,South,Groceries,Rice Bag,5,250,1250,6-Jan-25,Delivered,Card,3
+2005,Karan,Chennai,South,Electronics,Smartwatch,1,3500,3500,7-Jan-25,Cancelled,Cash,2
+2008,Priya,Hyderabad,South,Fashion,Kurti,2,650,1300,9-Jan-25,Pending,Card,4
+2010,Harsh,Ahmedabad,West,Electronics,Earphones,3,800,2400,10-Jan-25,Delivered,UPI,5
+2001,Aarav,Mumbai,West,Electronics,Bluetooth Speaker,2,1300,2600,5-Jan-25,Delivered,UPI,4
+2004,Sneha,Pune,West,Beauty,Face Serum,3,700,2100,7-Jan-25,Delivered,UPI,5
+2009,Reema,Surat,West,Beauty,Lip Balm,4,150,600,10-Jan-25,Delivered,Cash,3
+,,,,,,,,,,,,
+Filter all pending orders,,,,,,,,,,,,
+2008,Priya,Hyderabad,South,Fashion,Kurti,2,650,1300,45666,Pending,Card,4
+2002,Meera,Delhi,North,Fashion,Jacket,1,1800,1800,6-Jan-25,Pending,Cash,5
+,,,,,,,,,,,,
+Filter Orders Paid by UPI but Delivered Status Only,,,,,,,,,,,,
+2001,Aarav,Mumbai,West,Electronics,Bluetooth Speaker,2,1300,2600,5-Jan-25,Delivered,UPI,4
+2010,Harsh,Ahmedabad,West,Electronics,Earphones,3,800,2400,10-Jan-25,Delivered,UPI,5
+2004,Sneha,Pune,West,Beauty,Face Serum,3,700,2100,7-Jan-25,Delivered,UPI,5
+2007,Rohan,Jaipur,North,Groceries,Tea Pack,10,90,900,9-Jan-25,Delivered,UPI,5
+,,,,,,,,,,,,
+Show Only Electronics Category Orders Above ?2500,,,,,,,,,,,,
+2005,Karan,Chennai,South,Electronics,Smartwatch,1,3500,3500,7-Jan-25,Cancelled,Cash,2
+2001,Aarav,Mumbai,West,Electronics,Bluetooth Speaker,2,1300,2600,5-Jan-25,Delivered,UPI,4
+,,,,,,,,,,,,
+ Sort Customers by Ratings (Best to Worst),,,,,,,,,,,,
+OrderID,Customer,City,Region,Category,Product,Units Sold,Unit Price,Total Amount,Order Date,Status,Payment Mode,Rating
+2002,Meera,Delhi,North,Fashion,Jacket,1,1800,1800,6-Jan-25,Pending,Cash,5
+2010,Harsh,Ahmedabad,West,Electronics,Earphones,3,800,2400,10-Jan-25,Delivered,UPI,5
+2004,Sneha,Pune,West,Beauty,Face Serum,3,700,2100,7-Jan-25,Delivered,UPI,5
+2007,Rohan,Jaipur,North,Groceries,Tea Pack,10,90,900,9-Jan-25,Delivered,UPI,5
+2006,Asha,Kolkata,East,Home Decor,Wall Clock,2,900,1800,8-Jan-25,Delivered,Card,4
+2008,Priya,Hyderabad,South,Fashion,Kurti,2,650,1300,9-Jan-25,Pending,Card,4
+2001,Aarav,Mumbai,West,Electronics,Bluetooth Speaker,2,1300,2600,5-Jan-25,Delivered,UPI,4
+2003,Rahul,Bangalore,South,Groceries,Rice Bag,5,250,1250,6-Jan-25,Delivered,Card,3
+2009,Reema,Surat,West,Beauty,Lip Balm,4,150,600,10-Jan-25,Delivered,Cash,3
+2005,Karan,Chennai,South,Electronics,Smartwatch,1,3500,3500,7-Jan-25,Cancelled,Cash,2
+,,,,,,,,,,,,
+Filter Orders from the West Region with Status Delivered,,,,,,,,,,,,
+OrderID,Customer,City,Region,Category,Product,Units Sold,Unit Price,Total Amount,Order Date,Status,Payment Mode,Rating
+2009,Reema,Surat,West,Beauty,Lip Balm,4,150,600,10-Jan-25,Delivered,Cash,3
+2001,Aarav,Mumbai,West,Electronics,Bluetooth Speaker,2,1300,2600,5-Jan-25,Delivered,UPI,4
+2010,Harsh,Ahmedabad,West,Electronics,Earphones,3,800,2400,10-Jan-25,Delivered,UPI,5
+2004,Sneha,Pune,West,Beauty,Face Serum,3,700,2100,7-Jan-25,Delivered,UPI,5
+,,,,,,,,,,,,
+Show Only Orders Made Between 06-Jan-2025 and 09-Jan-2025,,,,,,,,,,,,
+OrderID,Customer,City,Region,Category,Product,Units Sold,Unit Price,Total Amount,Order Date,Status,Payment Mode,Rating
+2006,Asha,Kolkata,East,Home Decor,Wall Clock,2,900,1800,8-Jan-25,Delivered,Card,4
+2008,Priya,Hyderabad,South,Fashion,Kurti,2,650,1300,9-Jan-25,Pending,Card,4
+2003,Rahul,Bangalore,South,Groceries,Rice Bag,5,250,1250,6-Jan-25,Delivered,Card,3
+2005,Karan,Chennai,South,Electronics,Smartwatch,1,3500,3500,7-Jan-25,Cancelled,Cash,2
+2002,Meera,Delhi,North,Fashion,Jacket,1,1800,1800,6-Jan-25,Pending,Cash,5
+2009,Reema,Surat,West,Beauty,Lip Balm,4,150,600,10-Jan-25,Delivered,Cash,3
+2001,Aarav,Mumbai,West,Electronics,Bluetooth Speaker,2,1300,2600,5-Jan-25,Delivered,UPI,4
+2010,Harsh,Ahmedabad,West,Electronics,Earphones,3,800,2400,10-Jan-25,Delivered,UPI,5
+2004,Sneha,Pune,West,Beauty,Face Serum,3,700,2100,7-Jan-25,Delivered,UPI,5
+2007,Rohan,Jaipur,North,Groceries,Tea Pack,10,90,900,9-Jan-25,Delivered,UPI,5
+,,,,,,,,,,,,
+Sort by payment mode and then total amount (largest to smallest),,,,,,,,,,,,
+OrderID,Customer,City,Region,Category,Product,Units Sold,Unit Price,Total Amount,Order Date,Status,Payment Mode,Rating
+2006,Asha,Kolkata,East,Home Decor,Wall Clock,2,900,1800,8-Jan-25,Delivered,Card,4
+2008,Priya,Hyderabad,South,Fashion,Kurti,2,650,1300,9-Jan-25,Pending,Card,4
+2003,Rahul,Bangalore,South,Groceries,Rice Bag,5,250,1250,6-Jan-25,Delivered,Card,3
+2005,Karan,Chennai,South,Electronics,Smartwatch,1,3500,3500,7-Jan-25,Cancelled,Cash,2
+2002,Meera,Delhi,North,Fashion,Jacket,1,1800,1800,6-Jan-25,Pending,Cash,5
+2009,Reema,Surat,West,Beauty,Lip Balm,4,150,600,10-Jan-25,Delivered,Cash,3
+2001,Aarav,Mumbai,West,Electronics,Bluetooth Speaker,2,1300,2600,5-Jan-25,Delivered,UPI,4
+2010,Harsh,Ahmedabad,West,Electronics,Earphones,3,800,2400,10-Jan-25,Delivered,UPI,5
+2004,Sneha,Pune,West,Beauty,Face Serum,3,700,2100,7-Jan-25,Delivered,UPI,5
+2007,Rohan,Jaipur,North,Groceries,Tea Pack,10,90,900,9-Jan-25,Delivered,UPI,5
